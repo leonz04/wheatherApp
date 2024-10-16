@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.app{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.default-background{
+  background-image: url("https://www.meteorologiaenred.com/wp-content/uploads/2018/10/elementos-del-clima.jpg");
+}
+
+.clear-sky{
+  background-image: url("https://images.pexels.com/photos/281260/pexels-photo-281260.jpeg?cs=srgb&dl=pexels-francesco-ungaro-281260.jpg&fm=jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.scattered-clouds{
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEKj6C7FdHogqp5VeCYYC9Kwf4h5iZjAvTtw&s");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.overcast-clouds{
+  background-image: url("https://img.freepik.com/foto-gratis/vista-paisaje-espectacular-rayos-sol-brillando-traves-cielo-nublado-oscuro_181624-45676.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
