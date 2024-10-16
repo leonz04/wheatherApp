@@ -1,7 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react'
 
 import "./styles/CardWeather.css"
-import { functionsIn } from 'lodash'
 import axios from 'axios'
 
 const CardWeather = ({cityData,API_KEY,setCityData,setCity}) => {
